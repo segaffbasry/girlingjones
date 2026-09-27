@@ -1,0 +1,787 @@
+{
+  "scraped": "2026-09-27",
+  "hero": {
+    "lead": "Recruitment for",
+    "rotating": [
+      "Construction & Civil Engineering",
+      "Energy and Utilities",
+      "Civil & Structural Design",
+      "Project and Cost Management",
+      "Building Surveying"
+    ],
+    "title": "BEST TO WORK WITH",
+    "film": "https://girlingjones.com/wp-content/uploads/2026/01/Girling-Jones_exeter.mp4"
+  },
+  "sectorsIntro": "Want a job in construction? You’ve hit the spot.",
+  "sectors": [
+    {
+      "title": "Construction Consultancy",
+      "body": "We connect top talent with leading South West firms specialising in Civil and Structural Design, Project and Cost Management and Planning."
+    },
+    {
+      "title": "Civil Engineering, Energy and Utilities",
+      "body": "Working in partnership with Main Contractors and specialist Subcontractors across the region. Key specialisms include Water, Utilities, Telecoms, Renewable Energy, Highways and Development Infrastructure, Marine works and Major Projects."
+    },
+    {
+      "title": "Building Surveying and General Practice",
+      "body": "Providing the best Surveyors, Valuers and Agents to Surveying Practices and Agencies across, Devon, Cornwall, Somerset, Dorset and South Wales."
+    }
+  ],
+  "latest": {
+    "heading": "Our latest property and construction jobs",
+    "body": "Girling Jones recruit technical staff to the construction and property industry in the South West.",
+    "count": "60 Jobs Found"
+  },
+  "cvHelp": {
+    "heading": "Need More Help?",
+    "body": "For more help and advice on writing your CV or any other part of the recruitment process, please do get in touch with our team.",
+    "template": "https://girlingjones.com/wp-content/uploads/2019/06/Girling-Jones-CV-Template.docx"
+  },
+  "cvFields": [
+    "Name",
+    "Email",
+    "Roles",
+    "Phone",
+    "Upload Your CV"
+  ],
+  "who": {
+    "heading": "Who are we?",
+    "intro": "Girling Jones is a popular provider of technical staff to the construction and property industry across the Southwest. We cover three market sectors:",
+    "markets": [
+      "Construction and Property Consultancy",
+      "Civil Engineering, Energy and Utilities",
+      "Building Surveying and General Practice"
+    ],
+    "closing": "The consultancy of choice in the region. Best to work with!"
+  },
+  "reviewsHeader": {
+    "heading": "Don’t take our word for it?",
+    "sub": "Take a look for yourself"
+  },
+  "reviews": [
+    {
+      "text": "Simon is truly helpful and friendly. He is very knowledgeable about opportunities and understanding prospective roles based on skills and experience. There was great communication keeping in touch throughout and aiding onboarding. A very positive experience.",
+      "name": "Nick Grech-Cini",
+      "source": "Google Review"
+    },
+    {
+      "text": "It took less than a week for Simon Girling to find the right person to fill this important role, representing civil engineering contractors across the South West. His professionalism, energy and lively personality made this exercise an absolute pleasure. And he delivered 100%.",
+      "name": "Paul Santer – CECA Regional Director",
+      "source": "Google Review"
+    },
+    {
+      "text": "Simon was incredibly helpful, he worked very hard with job opportunities, extremely friendly. A great all round experience, couldn’t have asked for more. Great friendly guy. Thank you so much for the positive experience",
+      "name": "Donna Kass",
+      "source": "Google Review"
+    },
+    {
+      "text": "Truly positive experience, with great communication. Simon has kept my best interests in mind to find the right role for me. Highly professional and skilled throughout the whole process, providing stress-free opportunities. Thank you Simon and team",
+      "name": "Oliver Bunn",
+      "source": "Google Review"
+    },
+    {
+      "text": "During my tenure with Girling Jones I have found them to be most professional and supportive of both their agents and clients. They communicate in a friendly and inclusive manner, regularly keeping us updated of all circumstances regarding our work placements. Highly recommended should you require their services as either agent or client.",
+      "name": "Tim Dix",
+      "source": "Google Review"
+    },
+    {
+      "text": "Worked with the team at Girling Jones now for over a year. Simon was my contact there and continued to go out of his way, over and above what you would think… always did what was promised. Perfect.",
+      "name": "Jeremy Harker",
+      "source": "Google Review"
+    },
+    {
+      "text": "My experience with the business at all times has been of the highest quality and very professional. They respond to requests in a very timely manner and the level of detail on all candidates is exceptional. I am currently using the business to recruit and am confident that I will get the quality of candidate that the business requires to grow.",
+      "name": "Andrew Murphy",
+      "source": "Google Review"
+    },
+    {
+      "text": "I have worked with Girling Jones as both a client and more recently as a candidate. I have always found them to be professional and proactive in the way they go about recruiting. Certainly one of the better recruitment agencies in the South West and highly recommended",
+      "name": "Julian Holmes",
+      "source": "Google Review"
+    },
+    {
+      "text": "This agency are amazing, professional at the same time as been very friendly. I honestly can’t speak highly enough of this company, also I would recommend in a heart beat. Thank you guys !!",
+      "name": "Jala Baranyai",
+      "source": "Google Review"
+    },
+    {
+      "text": "Fiona and Simon were such a pleasure to deal with throughout. They were both professional and friendly and really made the whole process so simple and enjoyable for me. Thank you both very much! I would highly recommend!",
+      "name": "Sheri Noad",
+      "source": "Google Review"
+    },
+    {
+      "text": "Treveth Holdings have recently engaged with Girling Jones on a number of recruitment opportunities. They demonstrated a good understanding of our business and the candidate profile. Great communications and very professional. I would contact them first before anyone else.",
+      "name": "Andy Mansell",
+      "source": "Google Review"
+    },
+    {
+      "text": "Girling Jones have provided me with an excellent service and quickly found me position. Their communication is very good with quick response time and ongoing support. I have dealt with Michelle most of the time and she is very efficient and professional. Would recommend this agency.",
+      "name": "Anne McLaren",
+      "source": "Google Review"
+    },
+    {
+      "text": "We had the pleasure of working with Simon and the team at Girling Jones on a creative project earlier this year. Wow, what an inspiring and forward thinking environment they’ve built there. The team are genuinely driven and clearly very happy to be doing what they’re doing and I’m sure thriving as a result. This positive vibe can only be spreading out to their many lucky clients.",
+      "name": "Sam Brown",
+      "source": "Google Review"
+    },
+    {
+      "text": "While looking for a new position in Construction, I came across Girling Jones who were advertising the exact role I was looking for. During the entire process, Girling Jones was both very professional and personal and helped from Initial application through to receiving a contract. I can not recommend these highly enough.",
+      "name": "Colin Alabaster",
+      "source": "Google Review"
+    },
+    {
+      "text": "Outstanding amongst other employment/recruitment agencies. Excellent service and great communication.",
+      "name": "Katarzyna Molenda",
+      "source": "Google Review"
+    },
+    {
+      "text": "I would strongly recommend anyone to at least contact Girling Jones Ltd. They are very professional and incredibly supportive. It is a company who value you as you.",
+      "name": "Simon Higgins",
+      "source": "Google Review"
+    },
+    {
+      "text": "Experienced a very professional level of service, frequent follow up and advice readily given and provided; would recommend to others to use their service",
+      "name": "Antony King",
+      "source": "Google Review"
+    },
+    {
+      "text": "I have dealt with Girling Jones for over 4 years now, and as a client I can say the service provided is of high quality. Simon and the team are easy to speak with; not too corporate but very professional at the same time; and always personable. In being a client, it is good to know that GJ pride themselves on the quality of the service they provide, along with that competitive edge that makes them one of my top performing employment agencies.",
+      "name": "Russell Smith",
+      "source": "Google Review"
+    },
+    {
+      "text": "Very professional and responsive, could not have been more helpful throughout my time with them",
+      "name": "Ben Bradshaw",
+      "source": "Google Review"
+    }
+  ],
+  "cta": {
+    "heading": "Why not give us a tinkle?",
+    "body": "Contact us for a no-obligation chat.",
+    "rating": "5/5"
+  },
+  "footerBlurb": "Girling Jones is the leading provider of technical staff for the construction and engineering industry in the South West.",
+  "jobs": [
+    {
+      "title": "Senior Quantity Surveyor",
+      "url": "https://girlingjones.com/job/senior-quantity-surveyor-9/",
+      "excerpt": "Exeter base. Hybrid working. Long-term AMP8 projects without chasing work around the country.",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£65000 – £70000 per year Juicy Benefits Package",
+      "posted": "2026-09-17"
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "url": "https://girlingjones.com/job/senior-quantity-surveyor-8/",
+      "excerpt": "£78k package. Hybrid. Long-term AMP8. Major infrastructure work with serious commercial ownership.",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£65000 – £70000 per year Juicy Benefits Package",
+      "posted": "2026-09-17"
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "url": "https://girlingjones.com/job/senior-quantity-surveyor-7/",
+      "excerpt": "£78k package. Long-term AMP8 work. Hybrid. Cornwall. Commercial ownership without living on the road.",
+      "location": "Cornwall",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£65000 – £70000 per year Juicy Benefits Package",
+      "posted": "2026-09-17"
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "url": "https://girlingjones.com/job/senior-quantity-surveyor-6/",
+      "excerpt": "£78k package, hybrid working and long-term AMP8 projects across Cornwall — without spending your entire week on the road",
+      "location": "Cornwall",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£65000 – £70000 per year Juicy Benefits Package",
+      "posted": "2026-09-17"
+    },
+    {
+      "title": "Mechanical Engineer",
+      "url": "https://girlingjones.com/job/mechanical-engineer-2/",
+      "excerpt": "Don’t just monitor the mechanical package – own it. £475-£500/day on a major tidal barrier running into 2029.",
+      "location": "Somerset",
+      "type": "Contract or Temp",
+      "category": "Building & Construction",
+      "salary": "£475 – £500 per day Rate includes Holiday pay",
+      "posted": "2026-09-08"
+    },
+    {
+      "title": "Mechanical Engineer",
+      "url": "https://girlingjones.com/job/mechanical-engineer/",
+      "excerpt": "£475-£500 a day, a major tidal barrier and a programme running into 2029 – proper long-term work for a proven Mechanical Engineer",
+      "location": "Somerset",
+      "type": "Contract or Temp",
+      "category": "Building & Construction",
+      "salary": "£475 – £500 per day Rate includes Holiday pay",
+      "posted": "2026-09-08"
+    },
+    {
+      "title": "Health and Safety Advisor",
+      "url": "https://girlingjones.com/job/health-and-safety-advisor-3/",
+      "excerpt": "Major water projects. Plenty of site time. A safety role where your input is seen, heard and put into practice",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£42000 – £45000 per year Full benefits package",
+      "posted": "2026-09-07"
+    },
+    {
+      "title": "Health and Safety Advisor",
+      "url": "https://girlingjones.com/job/health-and-safety-advisor-2/",
+      "excerpt": "Get out from behind the desk and help shape safety across some of the South West’s key water infrastructure projects",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£42000 – £45000 per year Full benefits package",
+      "posted": "2026-09-07"
+    },
+    {
+      "title": "Bid Manager",
+      "url": "https://girlingjones.com/job/bid-manager/",
+      "excerpt": "150+ years of Tier 1 pedigree, major national frameworks and £70k-£80k + car, with the backing to take your career further",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£70000 – £80000 per year Generous Benefits Package",
+      "posted": "2026-09-07"
+    },
+    {
+      "title": "Bid Coordinator",
+      "url": "https://girlingjones.com/job/bid-coordinator-3/",
+      "excerpt": "£45k-£55k, hybrid South West working and 150+ years of contractor pedigree — put your bid skills behind a serious project pipeline",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£45000 – £55000 per year Generous Benefits Package",
+      "posted": "2026-09-07"
+    },
+    {
+      "title": "Bid Coordinator",
+      "url": "https://girlingjones.com/job/bid-coordinator-2/",
+      "excerpt": "£45k-£55k, hybrid working and a major contractor behind you — take ownership of bids that help secure the next generation of projects",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£45000 – £55000 per year Generous Benefits Package",
+      "posted": "2026-09-07"
+    },
+    {
+      "title": "Bid Coordinator",
+      "url": "https://girlingjones.com/job/bid-coordinator/",
+      "excerpt": "Major contractor. £45k-£55k. Hybrid South West role. Put your bid expertise behind the projects shaping tomorrow",
+      "location": "Bristol",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£45000 – £55000 per year Generous Benefits Package",
+      "posted": "2026-09-07"
+    },
+    {
+      "title": "Preconstruction Director",
+      "url": "https://girlingjones.com/job/preconstruction-director-4/",
+      "excerpt": "£130k + 30% bonus. A 20-strong team. Regional influence. This is pre-construction leadership with genuine weight behind it.",
+      "location": "Bristol",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£120000 – £130000 per year Car/Allowance + Up to 30% Annual Bonus + Package",
+      "posted": "2026-09-04"
+    },
+    {
+      "title": "Preconstruction Director",
+      "url": "https://girlingjones.com/job/preconstruction-director/",
+      "excerpt": "£130k + 30% bonus. A 20-strong team. Regional influence. This is pre-construction leadership with genuine weight behind it.",
+      "location": "Bristol",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£120000 per year Car/Allowance + Up to 30% Annual Bonus + Package",
+      "posted": "2026-09-04"
+    },
+    {
+      "title": "Preconstruction Director",
+      "url": "https://girlingjones.com/job/preconstruction-director-3/",
+      "excerpt": "£130k. 30% bonus. 20 people. £200m projects. If you run pre-construction at the top level, this should get your attention",
+      "location": "Bristol",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£120000 – £130000 per year Car/Allowance + Up to 30% Annual Bonus + Package",
+      "posted": "2026-09-04"
+    },
+    {
+      "title": "Preconstruction Director",
+      "url": "https://girlingjones.com/job/preconstruction-director-2/",
+      "excerpt": "£130k + 30% bonus. 20 people. £200m projects. One of the biggest pre-construction seats in the South West",
+      "location": "Bristol",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£120000 per year Car/Allowance + Up to 30% Annual Bonus + Package",
+      "posted": "2026-09-04"
+    },
+    {
+      "title": "Site Manager",
+      "url": "https://girlingjones.com/job/site-manager-3/",
+      "excerpt": "£60k + car, projects to £2m and secured water work across Devon & Cornwall — bring the experience, they’ve got the pipeline",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£58000 – £60000 per year Full Benefits Package",
+      "posted": "2026-09-03"
+    },
+    {
+      "title": "Site Manager",
+      "url": "https://girlingjones.com/job/site-manager-2/",
+      "excerpt": "£60k + car, secured South West water work and projects up to £2m — a solid long-term move for an experienced utilities Site Manager.",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£58000 – £60000 per year Full Benefits Package",
+      "posted": "2026-09-03"
+    },
+    {
+      "title": "Senior Building Surveyor",
+      "url": "https://girlingjones.com/job/senior-building-surveyor-2/",
+      "excerpt": "Secured work. Hybrid flexibility. Clear progression. Take ownership of your projects and your career",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£55000 – £60000 per year Full benefits and Hybrid Working",
+      "posted": "2026-09-03"
+    },
+    {
+      "title": "Senior Building Surveyor",
+      "url": "https://girlingjones.com/job/senior-building-surveyor/",
+      "excerpt": "Secure workload. Full project ownership. Clear progression. A Senior Building Surveyor role built for the long term.",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£55000 – £60000 per year Full benefits and Hybrid Working",
+      "posted": "2026-09-03"
+    },
+    {
+      "title": "Coded Pipe Welder",
+      "url": "https://girlingjones.com/job/coded-pipe-welder-3/",
+      "excerpt": "£25/hour with the right codes + overtime + up to a month’s salary bonus. Solid workshop role with plenty of work ahead",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Manufacturing",
+      "salary": "£23 – £25 per hour Bonus, Overtime, Benefits",
+      "posted": "2026-09-03"
+    },
+    {
+      "title": "Coded Pipe Welder",
+      "url": "https://girlingjones.com/job/coded-pipe-welder-2/",
+      "excerpt": "Got your codes? £25/hour + overtime + up to a month’s salary bonus. Strong order book. New facility. Plenty of work ahead.",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Manufacturing",
+      "salary": "£23 – £25 per hour Bonus, Overtime, Benefits",
+      "posted": "2026-09-03"
+    },
+    {
+      "title": "Site Engineer",
+      "url": "https://girlingjones.com/job/site-engineer-12/",
+      "excerpt": "Up to £390/day + £50/day lodge. Long-term Devonport work. Major project. Strong rate. Get on it.",
+      "location": "Devon",
+      "type": "Contract or Temp",
+      "category": "Building & Construction",
+      "salary": "£336 – £390 per year PAYE rate including Holiday Pay – not umbrella",
+      "posted": "2026-09-03"
+    },
+    {
+      "title": "Site Engineer",
+      "url": "https://girlingjones.com/job/site-engineer-11/",
+      "excerpt": "Up to £390/day + £50/day lodge — get yourself onto one of the UK’s biggest infrastructure programmes at Devonport.",
+      "location": "Devon",
+      "type": "Contract or Temp",
+      "category": "Building & Construction",
+      "salary": "£336 – £390 per year PAYE rate including Holiday Pay – not umbrella",
+      "posted": "2026-09-03"
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "url": "https://girlingjones.com/job/senior-quantity-surveyor-5/",
+      "excerpt": "£70k + £8k car allowance, hybrid working and long-term AMP8 projects — a strong SQS opportunity for anyone Plymouth-based.",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£65000 – £70000 per year Juicy Benefits Package",
+      "posted": "2026-09-03"
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "url": "https://girlingjones.com/job/senior-quantity-surveyor-4/",
+      "excerpt": "£70k + £8k car allowance, strong pension, healthcare, hybrid working and AMP8 projects — with Plymouth as your ideal base.",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£65000 – £70000 per year Juicy Benefits Package",
+      "posted": "2026-09-03"
+    },
+    {
+      "title": "Draftsperson",
+      "url": "https://girlingjones.com/job/draftsperson/",
+      "excerpt": "Draughtsperson contract near Bridgwater – £400 per day, long-term work, major civils project, and real impact on delivery.",
+      "location": "Devon",
+      "type": "Contract or Temp",
+      "category": "Building & Construction",
+      "salary": "£350 – £400 per day PAYE Rate plus Holiday Pay",
+      "posted": "2026-08-26"
+    },
+    {
+      "title": "Site Agent",
+      "url": "https://girlingjones.com/job/site-agent-22/",
+      "excerpt": "£70k + package, secured water framework and varied projects across Devon & Cornwall — built for an experienced Site Agent",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£65000 – £70000 per year Full Benefits Package",
+      "posted": "2026-08-21"
+    },
+    {
+      "title": "Site Agent",
+      "url": "https://girlingjones.com/job/site-agent-21/",
+      "excerpt": "£70k + package. Long-term water framework. Multiple schemes. A solid move for an experienced water infrastructure professional",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£65000 – £70000 per year Full Benefits Package",
+      "posted": "2026-08-21"
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "url": "https://girlingjones.com/job/senior-quantity-surveyor-3/",
+      "excerpt": "Take commercial ownership of major civil engineering projects, with the backing, autonomy and progression to take your career further",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£70000 – £75000 per year £9k Car Allowance, 10% Bonus and 10% Pension",
+      "posted": "2026-08-18"
+    },
+    {
+      "title": "Building Services Manager",
+      "url": "https://girlingjones.com/job/building-services-manager/",
+      "excerpt": "100 operational sites, one diverse estate and a key M&E role shaping how its buildings perform, comply and improve.",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£42000 – £46000 per year Very generous benefits package",
+      "posted": "2026-08-17"
+    },
+    {
+      "title": "Estates Manager",
+      "url": "https://girlingjones.com/job/estates-manager/",
+      "excerpt": "£48-55k + flexible working and strong benefits — take the lead on major projects across a varied operational property portfolio",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Facilities Manager",
+      "salary": "£48000 – £55000 per year Generous Benefits Package",
+      "posted": "2026-08-12"
+    },
+    {
+      "title": "Property Manager",
+      "url": "https://girlingjones.com/job/property-manager/",
+      "excerpt": "£48-55k + flexible working, generous pension and free gym — take ownership of a substantial operational estate",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Facilities Manager",
+      "salary": "£48000 – £55000 per year Generous Benefits Package",
+      "posted": "2026-08-12"
+    },
+    {
+      "title": "Valuation Surveyor",
+      "url": "https://girlingjones.com/job/valuation-surveyor-5/",
+      "excerpt": "Varied Red Book work, established clients and genuine autonomy—build your valuation career without the corporate feel",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Real Estate & Property",
+      "salary": "£50000 – £55000 per year Commission + Benefits",
+      "posted": "2026-08-12"
+    },
+    {
+      "title": "Site Agent",
+      "url": "https://girlingjones.com/job/site-agent-20/",
+      "excerpt": "Take the lead on £5m-£40m infrastructure schemes with a respected contractor and a strong pipeline of secured South West work",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£60000 – £70000 per year Bonus, Vehicle, Pension, Healthcare, 25 days Holid",
+      "posted": "2026-08-12"
+    },
+    {
+      "title": "Residential Building Surveyor",
+      "url": "https://girlingjones.com/job/residential-building-surveyor-2/",
+      "excerpt": "Quality surveys. Real flexibility. Finally enjoy a career where doing the job properly comes first",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£45000 – £55000 per year Commission and Great Benefits",
+      "posted": "2026-08-12"
+    },
+    {
+      "title": "Building Surveyor",
+      "url": "https://girlingjones.com/job/building-surveyor/",
+      "excerpt": "Chartered and ready for more autonomy? Take ownership of £250k-£2m projects with a growing Plymouth consultancy",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£50000 – £55000 per year Full Benefits Package",
+      "posted": "2026-08-12"
+    },
+    {
+      "title": "Pipe Welder",
+      "url": "https://girlingjones.com/job/pipe-welder/",
+      "excerpt": "£25ph, Bonus and plenty of overtime. Put your coded skills to work on long-term engineering projects.",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Manufacturing",
+      "salary": "£23 – £25 per hour Bonus, Overtime, Benefits",
+      "posted": "2026-08-12"
+    },
+    {
+      "title": "Assistant Quantity Surveyor",
+      "url": "https://girlingjones.com/job/assistant-quantity-surveyor-5/",
+      "excerpt": "Get hands-on with £5m-£20m civils projects and build your QS career with training, responsibility and a clear route forward",
+      "location": "Somerset",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£30000 – £35000 per year Car allowance and full benefits package",
+      "posted": "2026-08-12"
+    },
+    {
+      "title": "Graduate Quantity Surveyor",
+      "url": "https://girlingjones.com/job/graduarte-quantity-surveyor/",
+      "excerpt": "Turn your Quantity Surveying degree into a career on £5m-£20m civil engineering projects across the South West.",
+      "location": "Somerset",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£28000 – £32000 per year Car allowance and full benefits package",
+      "posted": "2026-08-12"
+    },
+    {
+      "title": "Health and Safety Advisor",
+      "url": "https://girlingjones.com/job/health-and-safety-advisor/",
+      "excerpt": "Major water framework. Serious infrastructure. A site-based safety role where your input directly shapes how projects get delivered.",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£42000 – £45000 per year Full benefits package",
+      "posted": "2026-08-10"
+    },
+    {
+      "title": "Quality Manager",
+      "url": "https://girlingjones.com/job/quality-manager-4/",
+      "excerpt": "Lead quality where it matters most – on a major defence infrastructure programme built around safety, standards and delivery.",
+      "location": "Devon",
+      "type": "Contract or Temp",
+      "category": "Building & Construction",
+      "salary": "£390 per day £25 travel or £50 Subsistance per day",
+      "posted": "2026-08-10"
+    },
+    {
+      "title": "Site Engineer",
+      "url": "https://girlingjones.com/job/site-engineer-10/",
+      "excerpt": "Build your future on one of the UK’s most significant engineering programmes in a role where every day makes an impact",
+      "location": "Devon",
+      "type": "Contract or Temp",
+      "category": "Building & Construction",
+      "salary": "£330 per hour PAYE rate including Holiday Pay – not umbrella",
+      "posted": "2026-07-31"
+    },
+    {
+      "title": "Quality Manager",
+      "url": "https://girlingjones.com/job/quality-manager-3/",
+      "excerpt": "Lead quality on a landmark defence project where your expertise will shape delivery from day one.",
+      "location": "Devon",
+      "type": "Contract or Temp",
+      "category": "Building & Construction",
+      "salary": "£390 per day £25 travel or £50 Subsistance per day",
+      "posted": "2026-07-31"
+    },
+    {
+      "title": "Coded Pipe Welder",
+      "url": "https://girlingjones.com/job/coded-pipe-welder/",
+      "excerpt": "Join a business with secured projects, premium stainless steel work and long-term stability in a growing workshop.",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Manufacturing",
+      "salary": "£50000 – £52000 per year Bonus, Overtime, Benefits",
+      "posted": "2026-07-31"
+    },
+    {
+      "title": "Quality Manager",
+      "url": "https://girlingjones.com/job/quality-manager-2/",
+      "excerpt": "Lead quality on a landmark infrastructure project where your expertise will shape delivery from start to finish",
+      "location": "Devon",
+      "type": "Contract or Temp",
+      "category": "Building & Construction",
+      "salary": "£390 – £450 per day PAYE rate – no umbrella charges or deductions!",
+      "posted": "2026-07-31"
+    },
+    {
+      "title": "Site Manager",
+      "url": "https://girlingjones.com/job/site-manager-5/",
+      "excerpt": "Put your water utilities experience to work on long-term AMP8 projects across the South West.",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£58000 – £60000 per year Full Benefits Package",
+      "posted": "2026-07-24"
+    },
+    {
+      "title": "Site Manager",
+      "url": "https://girlingjones.com/job/site-manager/",
+      "excerpt": "Lead vital water infrastructure projects with a contractor delivering long-term frameworks across the South West",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£58000 – £60000 per year Full Benefits Package",
+      "posted": "2026-07-24"
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "url": "https://girlingjones.com/job/senior-quantity-surveyor-2/",
+      "excerpt": "Lead the commercial delivery of AMP8 projects and make a lasting impact across the South West.",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£65000 – £70000 per year Full Benefits Package",
+      "posted": "2026-07-24"
+    },
+    {
+      "title": "Senior Quantity Surveyor",
+      "url": "https://girlingjones.com/job/senior-quantity-surveyor/",
+      "excerpt": "Lead AMP8 commercial delivery and shape major infrastructure projects across the South West",
+      "location": "Cornwall",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£65000 – £70000 per year Full Benefits Package",
+      "posted": "2026-07-24"
+    },
+    {
+      "title": "Quantity Surveyor",
+      "url": "https://girlingjones.com/job/quantity-surveyor-3/",
+      "excerpt": "Take ownership of AMP8 projects and build your career with a contractor investing in long-term success",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£55000 – £60000 per year Robust benefits package",
+      "posted": "2026-07-24"
+    },
+    {
+      "title": "Quantity Surveyor",
+      "url": "https://girlingjones.com/job/quantity-surveyor/",
+      "excerpt": "Lead the commercial success of AMP8 projects with a contractor investing in people and long-term infrastructure.",
+      "location": "Cornwall",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£55000 – £60000 per year Robust benefits package",
+      "posted": "2026-07-24"
+    },
+    {
+      "title": "Assistant Quantity Surveyor",
+      "url": "https://girlingjones.com/job/assistant-quantity-surveyor-4/",
+      "excerpt": "Take the next step in Quantity Surveying with a business investing in your future from day one",
+      "location": "Devon",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£34000 – £36000 per year EV Car / Allowance and Package",
+      "posted": "2026-07-24"
+    },
+    {
+      "title": "Assistant Quantity Surveyor",
+      "url": "https://girlingjones.com/job/assistant-quantity-surveyor-3/",
+      "excerpt": "Build your commercial career on projects that shape communities across the UK.",
+      "location": "Cornwall",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£34000 – £36000 per year EV Car / Allowance and Package",
+      "posted": "2026-07-24"
+    },
+    {
+      "title": "Sector Director – Healthcare",
+      "url": "https://girlingjones.com/job/sector-director-healthcare-2/",
+      "excerpt": "Shape the future of UK healthcare infrastructure with a leadership role that delivers national impact and exceptional rewards",
+      "location": "Bristol",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£120000 – £140000 per year Executive Package",
+      "posted": "2026-07-23"
+    },
+    {
+      "title": "Site Engineer",
+      "url": "https://girlingjones.com/job/site-engineer-3/",
+      "excerpt": "Engineer your next career move on one of the UK’s most prestigious infrastructure projects.",
+      "location": "Devon",
+      "type": "Contract or Temp",
+      "category": "Building & Construction",
+      "salary": "£336 – £390 per year PAYE rate including Holiday Pay – not umbrella",
+      "posted": "2026-07-22"
+    },
+    {
+      "title": "Quality Manager",
+      "url": "https://girlingjones.com/job/quality-manager/",
+      "excerpt": "Lead quality on a nationally significant defence project where your expertise will shape project success",
+      "location": "Devon",
+      "type": "Contract or Temp",
+      "category": "Building & Construction",
+      "salary": "£336 – £390 per day PAYE rate including Holiday Pay – not umbrella",
+      "posted": "2026-07-22"
+    },
+    {
+      "title": "Sector Director – Healthcare",
+      "url": "https://girlingjones.com/job/sector-director-healthcare/",
+      "excerpt": "Shape the future of UK healthcare infrastructure with a leadership role that delivers national impact and exceptional rewards",
+      "location": "Greater London",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£120000 – £140000 per year Executive Package",
+      "posted": "2026-07-22"
+    },
+    {
+      "title": "Construction Director – Healthcare",
+      "url": "https://girlingjones.com/job/construction-director-healthcare-2/",
+      "excerpt": "Shape the future of UK healthcare infrastructure with a leadership role that delivers national impact and exceptional rewards",
+      "location": "Greater London",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£120000 – £140000 per year Executive Package",
+      "posted": "2026-07-22"
+    },
+    {
+      "title": "Construction Director – Healthcare",
+      "url": "https://girlingjones.com/job/construction-director-healthcare/",
+      "excerpt": "Lead the healthcare projects shaping tomorrow’s NHS with one of the UK’s most respected construction businesses",
+      "location": "Bristol",
+      "type": "Permanent / Full Time",
+      "category": "Building & Construction",
+      "salary": "£120000 – £140000 per year Executive Package",
+      "posted": "2026-07-22"
+    }
+  ],
+  "toolsIntro": "Useful tools, calculators and experiments built by the team at Girling Jones. Designed to help candidates and employers make better decisions across the South West.",
+  "tools": [
+    {
+      "title": "Salary Intelligence",
+      "body": "Live salary ranges across construction, engineering and property disciplines in the South West",
+      "href": "https://coolstuff.girlingjones.com/",
+      "image": "https://girlingjones.com/wp-content/uploads/2026/06/SS.png"
+    },
+    {
+      "title": "Worth The Drive?",
+      "body": "Compare salary increases against travel time, fuel costs and commuting distance",
+      "href": "https://coolstuff.girlingjones.com/real-rate/",
+      "image": "https://girlingjones.com/wp-content/uploads/2026/06/WTD.png"
+    },
+    {
+      "title": "PAYE Calculator",
+      "body": "Quickly calculate your net pay after tax and deductions to get a realistic take home",
+      "href": "https://coolstuff.girlingjones.com/payslip/",
+      "image": "https://girlingjones.com/wp-content/uploads/2026/06/PC.png"
+    }
+  ]
+}
