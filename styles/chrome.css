@@ -13,11 +13,11 @@
 html[data-header="dark"] .site-header { color: var(--white); --logo-ink: var(--white); }
 .site-header.is-hidden { transform: translateY(-110%); }
 .site-header-inner { height: 100%; display: flex; align-items: center; gap: 32px; }
-.site-header .brand { width: clamp(168px, 15vw, 212px); flex: none; }
+.site-header .brand { width: clamp(156px, 13vw, 188px); flex: none; }
 .site-header .logo .logo-mark, .site-header .logo .logo-rules, .site-header .logo .logo-tagline { transition: fill .3s var(--ease-hover); }
 html.is-landing .site-header .brand { visibility: hidden; animation: hold-failsafe 0s linear 4s forwards; }
 .header-nav { display: flex; gap: 32px; margin-left: auto; }
-.nav-item { position: relative; font-size: 18px; font-weight: 500; padding-block: 8px; }
+.nav-item { position: relative; font-size: 16px; font-weight: 500; padding-block: 8px; }
 .nav-item::after { content: ""; position: absolute; left: 0; right: 0; bottom: 2px; height: 2px; background: var(--lime); transform: scaleX(0); transform-origin: right; transition: transform .45s var(--ease); }
 .nav-item:hover::after, .nav-item:focus-visible::after { transform: scaleX(1); transform-origin: left; }
 .header-actions { display: flex; align-items: center; gap: 16px; }
@@ -35,11 +35,11 @@ html.is-landing .site-header .brand { visibility: hidden; animation: hold-failsa
 }
 .menu-top { height: var(--header); display: flex; align-items: center; justify-content: space-between; }
 .menu-top .brand { width: clamp(168px, 15vw, 212px); }
-.menu-close { display: inline-flex; align-items: center; gap: 10px; font-size: 18px; font-weight: 500; padding: 10px 0; }
+.menu-close { display: inline-flex; align-items: center; gap: 10px; font-size: 16px; font-weight: 500; padding: 10px 0; }
 .menu-close span { display: grid; place-items: center; width: 48px; height: 48px; border-radius: 50%; border: 1px solid var(--on-ink-rule); font-size: 24px; line-height: 1; transition: background-color var(--hover-duration) var(--ease-hover), color var(--hover-duration) var(--ease-hover); }
 .menu-close:hover span { background: var(--lime); color: var(--ink); border-color: var(--lime); }
 .menu-body { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: var(--gap); align-items: start; padding-block: clamp(24px, 5vh, 64px); }
-.menu-links a { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-block: 10px; border-bottom: 1px solid var(--on-ink-rule); font-size: clamp(38px, 5.4vw, 76px); line-height: 1.1; font-weight: 500; letter-spacing: -.02em; }
+.menu-links a { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-block: 10px; border-bottom: 1px solid var(--on-ink-rule); font-size: clamp(32px, 4vw, 56px); line-height: 1.1; font-weight: 500; letter-spacing: -.02em; }
 .menu-links a .arrow { width: clamp(20px, 2vw, 30px); height: auto; color: var(--lime); transform: translateX(-12px); opacity: 0; transition: transform var(--arrow-duration) var(--ease-hover), opacity var(--hover-duration) var(--ease-hover); }
 .menu-links a:hover .arrow, .menu-links a:focus-visible .arrow, .menu-links a[aria-current] .arrow { transform: none; opacity: 1; }
 .menu-links a:hover span, .menu-links a:focus-visible span { color: var(--lime); }
@@ -48,14 +48,14 @@ html.is-landing .site-header .brand { visibility: hidden; animation: hold-failsa
 .search-dark { background: rgba(255, 255, 255, .08); color: var(--white); padding: 4px 4px 4px 24px; }
 .search-dark input::placeholder { color: var(--on-ink-muted); }
 .search-dark button { display: grid; place-items: center; width: 52px; height: 52px; border-radius: 50%; background: var(--lime); color: var(--ink); flex: none; }
-.menu-label { font-size: 15px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; color: var(--on-ink-muted); margin-top: 12px; }
+.menu-label { font-size: 13px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; color: var(--on-ink-muted); margin-top: 12px; }
 .menu-jobs { display: grid; gap: 12px; }
 .menu-jobs a { display: grid; gap: 4px; padding: 20px 24px; border-radius: 20px; border: 1px solid var(--on-ink-rule); transition: border-color var(--hover-duration) var(--ease-hover), background-color var(--hover-duration) var(--ease-hover); }
 .menu-jobs a:hover, .menu-jobs a:focus-visible { border-color: var(--lime); background: rgba(255, 255, 255, .04); }
-.menu-jobs strong { font-size: 22px; font-weight: 500; }
-.menu-jobs span { font-size: 16px; color: var(--on-ink-muted); }
+.menu-jobs strong { font-size: 19px; font-weight: 500; }
+.menu-jobs span { font-size: 14px; color: var(--on-ink-muted); }
 .menu-jobs .menu-job-pay { color: var(--lime); }
-.menu-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 32px; padding-block: 24px 32px; border-top: 1px solid var(--on-ink-rule); font-size: 18px; }
+.menu-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 32px; padding-block: 24px 32px; border-top: 1px solid var(--on-ink-rule); font-size: 16px; }
 .menu-foot > a:hover { color: var(--lime); }
 .menu-foot .socials { margin-left: auto; }
 @media (max-width: 900px) { .menu-body { grid-template-columns: 1fr; } .menu-foot .socials { margin-left: 0; } }
@@ -65,11 +65,11 @@ html.is-landing .site-header .brand { visibility: hidden; animation: hold-failsa
 .footer-top { display: grid; grid-template-columns: minmax(0, 1.6fr) repeat(3, minmax(0, 1fr)); gap: var(--gap); padding-bottom: 72px; }
 .footer-brand .logo { width: min(280px, 100%); margin-bottom: 28px; }
 .footer-brand p { color: var(--on-ink-muted); max-width: 36ch; margin-bottom: 28px; }
-.footer-title { font-size: 15px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; color: var(--lime); margin-bottom: 20px; }
+.footer-title { font-size: 13px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; color: var(--lime); margin-bottom: 20px; }
 .footer-col ul { display: grid; gap: 10px; }
 .footer-col a { color: var(--on-ink-muted); transition: color var(--hover-duration) var(--ease-hover); }
 .footer-col a:hover, .footer-col a:focus-visible { color: var(--white); }
-.footer-bar { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 32px; padding-block: 28px 36px; border-top: 1px solid var(--on-ink-rule); font-size: 16px; color: var(--on-ink-muted); }
+.footer-bar { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 32px; padding-block: 28px 36px; border-top: 1px solid var(--on-ink-rule); font-size: 14px; color: var(--on-ink-muted); }
 .footer-bar a:hover { color: var(--lime); }
 @media (max-width: 1000px) { .footer-top { grid-template-columns: 1fr 1fr; } .footer-brand { grid-column: 1 / -1; } }
 @media (max-width: 520px) { .footer-top { grid-template-columns: 1fr; } }

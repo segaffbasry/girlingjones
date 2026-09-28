@@ -81,6 +81,21 @@ The section order puts jobs straight after the hero (client feedback, 2026-09-28
 | 8 | CV | "Submit your CV", "Need More Help?", Contact us, Download template | — (live section, restyled) |
 | 9 | CTA | "Why not give us a tinkle?", "Contact us for a no-obligation chat." | "Ready to break ground?": 814px photo band |
 
+### Type scale
+Client feedback (2026-09-28): "text is really big throughout". Every size came down together so the hierarchy holds:
+
+| Role | Before | Now (1440px) |
+|---|---|---|
+| Hero headline | 176px | 124px |
+| Display (CV, CTA) | 104px | 72px |
+| Section heading `.h2` | 56px | 40px |
+| `.h3` / `.h4` | 36 / 24px | 28 / 20px |
+| Sector pills | 48px | 30px |
+| Marquee | 120px | 88px |
+| Lede / body | 21 / 18px | 18 / 16px |
+| Buttons | 20px | 17px (small: 15px) |
+| Labels, chips, tags | 13–16px | 12–14px |
+
 ## Content counts (scraped vs source)
 
 | Item | Scraped | Source | Note |
@@ -159,8 +174,8 @@ Measured from the live element (computed styles and the stylesheet rule `.the-bu
 | Property | jdavisgc.com | Here |
 |---|---|---|
 | Structure | `<a>` › `<span>` label + 15×15 arrow `<svg>` at 12px | Same (same arrow path) |
-| Box | `px-8 py-4`, 64px tall, `rounded-full`, 1px border | Same (`.pill`) |
-| Type | 20px/30px, weight 500, tracking −0.03em | Same |
+| Box | `px-8 py-4`, 64px tall, `rounded-full`, 1px border | Same shape, scaled to 12px 26px / 52px tall (`.pill`) after the type reduction |
+| Type | 20px/30px, weight 500, tracking −0.03em | 17px/26px, weight 500, tracking −0.03em |
 | Colour swap | `transition … 0.3s cubic-bezier(.4,0,.2,1)`, white/red → red/white | `--hover-duration: .3s`, `--ease-hover`. Tones re-mapped to the palette (lime→ink, white→lime, ink→lime, line→ink) |
 | Arrow | `transition-transform duration-500 ease-in-out`, hover `translate(5px)` | `--arrow-duration: .5s`, `translate(5px)` |
 
