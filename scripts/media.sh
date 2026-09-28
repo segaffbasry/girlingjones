@@ -16,6 +16,7 @@ get() { [ -s "_scrape/$2" ] || curl -sfL -A "$UA" -o "_scrape/$2" "$1"; }
 get "$U/2026/01/Girling-Jones_exeter.mp4" exeter.mp4
 get "$U/2024/09/join-our-team-image.jpg" join-our-team.jpg
 get "$U/2023/07/Plymouth.jpg" plymouth.jpg
+get "$U/2025/12/Teignmouth_small-1900x640.jpg" teignmouth.jpg   # contact page banner
 get "$U/2026/06/SS.png" tool-salary.png
 get "$U/2026/06/WTD.png" tool-drive.png
 get "$U/2026/06/PC.png" tool-paye.png
@@ -28,7 +29,7 @@ ffmpeg -v error -y -ss 0.2 -i _scrape/exeter.mp4 -frames:v 1 -vf "scale=1920:-2"
 ffmpeg -v error -y -ss 5.2 -i _scrape/exeter.mp4 -frames:v 1 -q:v 3 public/media/office.jpg
 ffmpeg -v error -y -ss 12.4 -i _scrape/exeter.mp4 -frames:v 1 -q:v 3 public/media/tinkle.jpg
 
-cp _scrape/join-our-team.jpg _scrape/plymouth.jpg public/media/
+cp _scrape/join-our-team.jpg _scrape/plymouth.jpg _scrape/teignmouth.jpg public/media/
 for t in salary drive paye; do ffmpeg -v error -y -i "_scrape/tool-$t.png" -q:v 3 "public/media/tool-$t.jpg"; done
 
 ls -la public/media

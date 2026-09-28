@@ -12,6 +12,7 @@ export function Sectors() {
   const photos = [
     { src: "/media/office.jpg", alt: "The Girling Jones office in Exeter from the air" },
     { src: "/media/plymouth.jpg", alt: "Royal William Yard, Plymouth, from the air" },
+    { src: "/media/teignmouth.jpg", alt: "Teignmouth and the Teign estuary from the air" },
   ];
   return <section className="sectors section" aria-labelledby="sectors-title">
     <div className="wrap">

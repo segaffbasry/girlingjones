@@ -104,7 +104,7 @@ export function Hero() {
       </form>
     </div>
     <div className="wrap hero-foot" data-hero-in>
-      <a href="#who" className="hero-scroll">Scroll <span aria-hidden="true">↓</span></a>
+      <a href="#jobs" className="hero-scroll">Scroll <span aria-hidden="true">↓</span></a>
       <button className="film-toggle" onClick={toggle} aria-pressed={paused} aria-label={paused ? "Play background film" : "Pause background film"}>
         {paused
           ? <svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true"><path d="M2 1l9 5-9 5z" fill="currentColor" /></svg>

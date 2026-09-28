@@ -31,7 +31,7 @@ npm run logo       # re-split the live Logo.svg into lib/logo.ts + public/brand/
 |---|---|---|
 | Pages | 18 | Linked out (nav, footer, sector links) |
 | Posts (GJ News, 2015–2019) | 115 | Not on the live homepage, so not used |
-| Jobs (`wpbb_job`) | 60 | All 60 scraped. The newest 6 are shown and the count is live |
+| Jobs (`wpbb_job`) | 60 | All 60 scraped and all 60 shown in the jobs row. The count is live |
 | Job categories / types | 4 / 2 | Shown on each job card |
 
 **Access:** the site returns `403` to non-browser user agents, so every script sends a desktop Chrome UA. The WP REST API does not expose jobs. Instead `/job-search/?job-length=200` returns all 60 in one page, each with `JobPosting` JSON-LD (the date comes from there).
@@ -67,16 +67,16 @@ npm run logo       # re-split the live Logo.svg into lib/logo.ts + public/brand/
 
 ## Page structure
 
-The section order follows the live homepage, restaged on the jdavisgc.com rhythm:
+The section order puts jobs straight after the hero (client feedback, 2026-09-28: "the jobs are the most important part"; "Who are we?" moved down). The rest is restaged on the jdavisgc.com rhythm:
 
 | # | Section | Live content | Reference pattern |
 |---|---|---|---|
 | 1 | Hero | Brand film, "Recruitment for [5 rotating sectors]", "BEST TO WORK WITH", job search (submits to live `/job-search/`) | Full-height dark hero, left-aligned 96px+ headline, pill CTA |
-| 2 | Who are we? | Closing line as heading, intro, 3 markets, "Make Contact" | "Who we are": eyebrow, swiped phrase, copy + photo |
-| 3 | Marquee | "No egos · No idiots · Best to work with" (film end card + strapline) | "Innovation · Safety · Ethics": 120px pale type, 35s loop |
-| 4 | Sectors | "Want a job in construction? You've hit the spot." + 3 sectors → live sector pages | "Our sectors": 48px outline pills with arrows, photo pills |
-| 5 | Latest jobs | "60 Jobs Found", heading, body, "View All jobs" + 6 newest jobs → live job pages | "Featured Projects": sticky stacked articles, top rule, tag, arrow ring |
-| 6 | Tools | "Cool stuff": Salary Intelligence, Worth The Drive?, PAYE Calculator | Services: accordion + picture |
+| 2 | Latest jobs | "60 Jobs Found", heading, body, "View All jobs" + **all 60 jobs** in one horizontal row with location filters → live job pages | Project-row card language: category chip, arrow ring. Horizontal instead of the reference's sticky stack (client feedback: too much scrolling) |
+| 3 | Sectors | "Want a job in construction? You've hit the spot." + 3 sectors → live sector pages | "Our sectors": 48px outline pills with arrows, a photo pill beside each |
+| 4 | Tools | "Cool stuff": Salary Intelligence, Worth The Drive?, PAYE Calculator | Services: accordion + picture |
+| 5 | Who are we? | Closing line as heading, intro, 3 markets, "Make Contact" | "Who we are": eyebrow, swiped phrase, copy + photo |
+| 6 | Marquee | "No egos · No idiots · Best to work with" (film end card + strapline) | "Innovation · Safety · Ethics": 120px pale type, 35s loop |
 | 7 | Reviews | "Don't take our word for it?", 19 Google reviews, 5/5 | Sticky 100vh stage with a circle that grows on scroll |
 | 8 | CV | "Submit your CV", "Need More Help?", Contact us, Download template | — (live section, restyled) |
 | 9 | CTA | "Why not give us a tinkle?", "Contact us for a no-obligation chat." | "Ready to break ground?": 814px photo band |
@@ -85,7 +85,7 @@ The section order follows the live homepage, restaged on the jdavisgc.com rhythm
 
 | Item | Scraped | Source | Note |
 |---|---|---|---|
-| Jobs | 60 | 60 (`job-sitemap.xml`, "60 Jobs Found") | Newest 6 shown on the page. All 60 are in `content/home.json` |
+| Jobs | 60 | 60 (`job-sitemap.xml`, "60 Jobs Found") | All 60 shown in the jobs row, filterable by location (Devon 42, Bristol 7, Cornwall 5, Somerset 4, Greater London 2) |
 | Google reviews | 19 | 21 slides | The live slider repeats Tim Dix and Andrew Murphy at the end. Duplicates are dropped |
 | Sectors | 3 | 3 | |
 | Rotating hero sectors | 5 | 5 | From the live `data-items` |
@@ -134,7 +134,7 @@ One fixed set, played once, on one ease-out curve, shortened to 75% inside `[dat
 | `label` | Eyebrows, buttons, count pill | 12px rise + fade | 0.45s |
 | `heading` | Every section heading | Whole phrase fades and rises **40px** (jdavisgc `.fade-in-up`: `translateY(40px)`, ease-out) | 0.8s |
 | `text` | Paragraphs | Each word slides up out of its own mask | 0.7s, ≤12ms stagger |
-| `card` | Market rows, sector pills and notes, accordion rows, footer columns | Batched 24px rise + fade, 80ms stagger | 0.65s |
+| `card` | Job row, market rows, sector pills and notes, accordion rows, footer columns | Batched 24px rise + fade, 80ms stagger | 0.65s |
 | `image` | Photographs, tools frame | Clip opens from the bottom edge. `[data-parallax]` adds ±5% drift | 1.1s |
 | `swipe` | `[data-swipe]` phrases | Lime block grows behind the phrase 0.35s after it enters | 0.5s |
 
@@ -148,6 +148,9 @@ A full-screen overlay rebuilt from the live popup: site links, a job search, the
 - **In:** an ink curtain drops from the top edge (`clip-path`), then items rise with a stagger.
 - **Out:** the same timeline reversed at 1.4×.
 - **Accessibility:** focus trap, Esc closes, focus returns to the trigger, `inert` while closed.
+
+### Jobs row (`components/home/Jobs.tsx`)
+All 60 live jobs sit in one horizontal, scroll-snapping row. The first card lines up with the content column and the row bleeds to the right edge. It moves by trackpad or touch, shift-wheel, the arrow buttons (one screenful per click, disabled at either end) or the arrow keys once the row has focus. A progress hairline shows the position. Location chips (with counts) narrow the row and reset it to the start. Each whole card links to its live job page (stretched title link), and every third card is ink for rhythm. The row carries `data-lenis-prevent-horizontal`, so sideways gestures scroll the row and never the page.
 
 ### Copied interaction: jdavisgc.com `.the-button` → `components/ui.tsx` `<Pill>`
 
@@ -211,6 +214,7 @@ All images come from girlingjones.com and are fetched by `scripts/media.sh`:
 | `office.jpg` (5.2s), `tinkle.jpg` (12.4s) | Stills taken from the same film |
 | `join-our-team.jpg` | `2024/09/join-our-team-image.jpg` |
 | `plymouth.jpg` | `2023/07/Plymouth.jpg` |
+| `teignmouth.jpg` | `2025/12/Teignmouth_small-1900x640.jpg` (contact page banner), the third sector photo pill |
 | `tool-*.jpg` | `2026/06/SS.png`, `WTD.png`, `PC.png` (the "Cool stuff" page) |
 | `public/brand/*.svg`, `lib/logo.ts` | `2021/11/Logo.svg` (split by `scripts/logo.mjs`) |
 | Social icons | Simple Icons paths (`lib/brand-icons.ts`) |
