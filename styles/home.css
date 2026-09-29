@@ -30,18 +30,18 @@ html.is-loading .hero-inner, html.is-loading .hero-foot { visibility: hidden; an
 }
 
 /* ---------- Who are we? (jd "Who we are") ---------- */
-.who-grid { align-items: center; }
+.who-grid { align-items: start; }
 .who-copy .h2 { margin-bottom: 32px; max-width: 15ch; }
 .who-copy .lede { max-width: 46ch; margin-bottom: 32px; }
 .markets { display: grid; margin-bottom: 40px; max-width: 520px; }
 .markets li { display: flex; gap: 20px; align-items: baseline; padding-block: 16px; border-top: 1px solid var(--hairline); font-size: 17px; font-weight: 500; }
 .markets li:last-child { border-bottom: 1px solid var(--hairline); }
 .markets .num { font-size: 12px; color: var(--muted); }
-.who-photo { aspect-ratio: 4 / 5; border-radius: 24px; }
+.who-photo { aspect-ratio: 5 / 4; border-radius: 24px; }
 @media (max-width: 900px) { .who-photo { aspect-ratio: 4 / 3; } }
 
 /* ---------- Marquee (jd: 120px, #efefef, 110% line-height, 35s linear, translate -50% loop) ---------- */
-.marquee { overflow: clip; padding-block: 8px clamp(24px, 4vw, 48px); margin-top: calc(var(--section) * -.5); }
+.marquee { overflow: clip; padding-block: 8px clamp(24px, 4vw, 48px); margin-top: calc(var(--section) * -.6); }
 .marquee-track { display: flex; width: max-content; animation: marquee 35s linear infinite; }
 .marquee-run { display: flex; font-size: clamp(48px, 6vw, 88px); line-height: 1.1; font-weight: 500; letter-spacing: -.02em; color: var(--ghost); white-space: nowrap; }
 .marquee-run > span { display: inline-flex; }
@@ -50,7 +50,6 @@ html.is-loading .hero-inner, html.is-loading .hero-foot { visibility: hidden; an
 @media (prefers-reduced-motion: reduce) { .marquee-track { animation: none; } }
 
 /* ---------- Sectors (jd "Our sectors": 48px outline pills with arrows, photo pills in between) ---------- */
-.sectors { padding-top: clamp(24px, 3vw, 48px); }
 .sectors-title { max-width: 20ch; margin-bottom: clamp(40px, 5vw, 64px); }
 .sector-cloud { display: flex; flex-wrap: wrap; gap: 16px; }
 .sector-cloud-item { display: flex; gap: 16px; align-items: center; min-width: 0; max-width: 100%; }
@@ -64,7 +63,7 @@ html.is-loading .hero-inner, html.is-loading .hero-foot { visibility: hidden; an
 .sector-pill:hover, .sector-pill:focus-visible { background: var(--ink); color: var(--white); }
 .sector-pill:hover .arrow, .sector-pill:focus-visible .arrow { transform: translate(5px); color: var(--lime); }
 .photo-pill { width: clamp(110px, 14vw, 220px); height: clamp(56px, 5.4vw, 80px); border-radius: 9999px; flex: none; }
-.sector-notes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--gap); margin-top: clamp(56px, 7vw, 96px); }
+.sector-notes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--gap); margin-top: clamp(40px, 5vw, 72px); }
 .sector-notes li { border-top: 1px solid var(--rule); padding-top: 24px; display: grid; gap: 14px; align-content: start; }
 .sector-notes .num { color: var(--muted); }
 @media (max-width: 900px) { .sector-notes { grid-template-columns: 1fr; gap: 32px; } }
@@ -150,14 +149,15 @@ html.is-loading .hero-inner, html.is-loading .hero-foot { visibility: hidden; an
 .tools-frame img.is-on { opacity: 1; }
 @media (max-width: 900px) { .tools-frame { position: relative; top: auto; order: -1; } .acc-panel > div { padding-left: 0; } }
 
-/* ---------- Reviews (jd testimonial: sticky 100vh stage on #f6f6f6, a white circle that grows with scroll) ---------- */
-.reviews { position: relative; height: 200vh; background: var(--paper); }
-.reviews-stage { position: sticky; top: 0; height: 100svh; display: grid; place-items: center; overflow: clip; }
+/* ---------- Reviews (jd testimonial: a white circle that grows with scroll on #f6f6f6). Content-height rather than
+   jd's pinned 100vh stage, after client feedback about white space between sections. ---------- */
+.reviews { position: relative; background: var(--paper); overflow: clip; }
+.reviews-stage { position: relative; display: grid; place-items: center; padding-block: var(--section); }
 .reviews-circle { position: absolute; left: 50%; top: 50%; width: 125vmax; aspect-ratio: 1; margin: -62.5vmax 0 0 -62.5vmax; border-radius: 50%; background: var(--white); }
-.reviews-inner { position: relative; display: grid; justify-items: center; text-align: center; gap: clamp(24px, 4vh, 48px); padding-top: var(--header); }
+.reviews-inner { position: relative; display: grid; justify-items: center; text-align: center; gap: clamp(24px, 3vw, 40px); }
 .reviews-head { display: grid; gap: 6px; }
 .reviews-head .body { color: var(--muted); }
-.review { max-width: 980px; min-height: 12em; display: grid; align-items: center; }
+.review { max-width: 980px; min-height: 9em; display: grid; align-items: center; }
 .review-text { font-size: clamp(18px, 1.7vw, 24px); line-height: 1.3; font-weight: 500; letter-spacing: -.015em; }
 .review-text p::before { content: "\201C"; }
 .review-text p::after { content: "\201D"; }
@@ -170,13 +170,8 @@ html.is-loading .hero-inner, html.is-loading .hero-foot { visibility: hidden; an
 .review-buttons { display: flex; gap: 12px; }
 .review-score { font-size: 14px; color: var(--muted); }
 .review-score strong { color: var(--ink); font-size: 17px; margin-right: 4px; }
-@media (max-width: 760px), (max-height: 620px) {
-  .reviews { height: auto; }
-  .reviews-stage { position: relative; height: auto; padding-block: var(--section); }
-  .reviews-inner { padding-top: 0; }
-  .reviews-circle { display: none; }
-  .review { min-height: 0; }
-}
+@media (max-width: 760px) { .reviews-circle { display: none; } .review { min-height: 0; } }
+
 
 /* ---------- CV (live "Submit your CV" / "Need More Help?") ---------- */
 .cv { background: var(--paper); overflow: clip; }

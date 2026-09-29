@@ -77,7 +77,7 @@ The section order puts jobs straight after the hero (client feedback, 2026-09-28
 | 4 | Tools | "Cool stuff": Salary Intelligence, Worth The Drive?, PAYE Calculator | Services: accordion + picture |
 | 5 | Who are we? | Closing line as heading, intro, 3 markets, "Make Contact" | "Who we are": eyebrow, swiped phrase, copy + photo |
 | 6 | Marquee | "No egos · No idiots · Best to work with" (film end card + strapline) | "Innovation · Safety · Ethics": 120px pale type, 35s loop |
-| 7 | Reviews | "Don't take our word for it?", 19 Google reviews, 5/5 | Sticky 100vh stage with a circle that grows on scroll |
+| 7 | Reviews | "Don't take our word for it?", 19 Google reviews, 5/5 | Circle that grows on scroll behind the quote; content-height instead of the reference's pinned 100vh stage (client feedback: too much white space) |
 | 8 | CV | "Submit your CV", "Need More Help?", Contact us, Download template | — (live section, restyled) |
 | 9 | CTA | "Why not give us a tinkle?", "Contact us for a no-obligation chat." | "Ready to break ground?": 814px photo band |
 
@@ -95,6 +95,14 @@ Client feedback (2026-09-28): "text is really big throughout". Every size came d
 | Lede / body | 21 / 18px | 18 / 16px |
 | Buttons | 20px | 17px (small: 15px) |
 | Labels, chips, tags | 13–16px | 12–14px |
+
+### Section spacing
+Client feedback (2026-09-29): "a lot of white space between sections".
+- `--section` padding went from `clamp(80px, 9vw, 144px)` to `clamp(56px, 6.5vw, 104px)`.
+- Two white sections in a row now share one gap (`.section + .section { padding-top: 0 }`) instead of stacking bottom and top padding. That gap had been up to 288px.
+- "Who are we?" aligns to the top with a landscape (5:4) photo, so its heading no longer floats halfway down a tall portrait image.
+- Reviews no longer pin for a full screen of scroll.
+- Measured gaps between sections at 1440px are now about 94–140px (56–112px at 375px). The page went from 8,457px to 6,517px tall.
 
 ## Content counts (scraped vs source)
 

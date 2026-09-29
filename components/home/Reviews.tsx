@@ -6,9 +6,9 @@ import { useEffect, useRef, useState } from "react";
 import { reducedMotion } from "@/components/ui";
 import { cta, reviews, reviewsHeader } from "@/lib/content";
 
-/* The 19 live Google reviews, staged like jdavisgc.com's testimonial: a full-height sticky stage (#f6f6f6 there,
-   paper here) where a white circle grows from 360px to fill the screen as you scroll through, with one large quote
-   at its centre. Visitors step through the quotes with the arrows; nothing rotates on its own. */
+/* The 19 live Google reviews, staged like jdavisgc.com's testimonial: on a paper ground (#f6f6f6 there) a white circle
+   grows to fill the section as it scrolls through, with one large quote at its centre. The reference pins the stage
+   for a full screen; here the section is only as tall as its content, so there is no dead scroll around it. Visitors step through the quotes with the arrows; nothing rotates on its own. */
 export function Reviews() {
   const root = useRef<HTMLElement>(null);
   const quote = useRef<HTMLDivElement>(null);
@@ -18,7 +18,7 @@ export function Reviews() {
   useEffect(() => {
     const el = root.current; if (!el || reducedMotion()) return;
     const ctx = gsap.context(() => {
-      gsap.fromTo(".reviews-circle", { scale: .3 }, { scale: 1, ease: "none", scrollTrigger: { trigger: el, start: "top 60%", end: "bottom bottom", scrub: true } });
+      gsap.fromTo(".reviews-circle", { scale: .3 }, { scale: 1, ease: "none", scrollTrigger: { trigger: el, start: "top 85%", end: "bottom 60%", scrub: true } });
     }, el);
     return () => ctx.revert();
   }, []);
